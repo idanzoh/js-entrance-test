@@ -1,16 +1,27 @@
 body {
     text-align:center;
-    background-color: lightgray;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .card {
     background-color: white;
+    width: 344px;
+    font-size: small;
+    display:inline-grid;
+    border: 1px black solid;
+    margin-right: 10px;
+    word-wrap: break-word;
+}
+
+
+.card img {
+    display: block;
+    margin: 0 auto;
 }
 
 h1 {
-    background-color:gray;
+    background-color:lightgray;
     border: 1px black solid;
-    border-radius: 10px;
 }
 
 input[type=text] {
@@ -19,6 +30,7 @@ input[type=text] {
 }
 
 #btnSearch {
-    background-color: skyblue;
-    border-radius: 10px;
+    background-color: lightgreen;
+    border: 1px black solid;
+    cursor: pointer;
 }
