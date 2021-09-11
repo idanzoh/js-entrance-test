@@ -3,25 +3,35 @@ body {
     font-family: 'Varela Round', sans-serif;
 }
 
+.error{
+    background-color:red !important;
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+.warning {
+    border: 10px yellow solid;
+}
+
 .card {
     background-color: white;
-    width: 344px;
+    width: 200px;
     font-size: small;
-    display:inline-grid;
-    border: 1px black solid;
+    display:inline-block;
+    box-shadow: 0px 0px 5px 0px;
     margin-right: 10px;
     word-wrap: break-word;
 }
 
-
 .card img {
     display: block;
     margin: 0 auto;
+    width: 100%;
 }
 
-h1 {
+.jumbotron {
     background-color:lightgray;
-    border: 1px black solid;
+    box-shadow: 0 0 6px 0px;
 }
 
 input[type=text] {
@@ -33,4 +43,12 @@ input[type=text] {
     background-color: lightgreen;
     border: 1px black solid;
     cursor: pointer;
+}
+
+
+
+.bookDesc {
+    text-overflow: ellipsis;
+    overflow-y: auto;
+    height: 100px;
 }
